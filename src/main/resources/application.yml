@@ -1,0 +1,20 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8091
+  servlet:
+    context-path: /api/v1
+
+springdoc:
+  swagger-ui:
+    path: /documentation.html
+    operationsSorter: method
+
+spring:
+  profiles:
+    active: prod
+  banner:
+    charset: UTF-8
+    location: classpath:/banner.txt

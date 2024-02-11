@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Guama Transactions Service Production
+  datasource:
+    url: jdbc:mysql://localhost:3308/GUAMA?autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=yes&characterEnconding=UTF-8
+    username: user1
+    password: password1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false
