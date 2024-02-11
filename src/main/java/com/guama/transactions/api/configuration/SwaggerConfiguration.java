@@ -1,6 +1,6 @@
 package com.guama.transactions.api.configuration;
 
-import com.guama.transactions.GuamaTransacctionsServiceApplication;
+import com.guama.transactions.GuamaTransactionsServiceApplication;
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * Swagger configuration
  */
 @Configuration
-@ComponentScan(basePackageClasses = {GuamaTransacctionsServiceApplication.class})
+@ComponentScan(basePackageClasses = {GuamaTransactionsServiceApplication.class})
 public class SwaggerConfiguration {
   private final String applicationName;
   private static final String DESCRIPTION = "This is the guama transactions service API";
