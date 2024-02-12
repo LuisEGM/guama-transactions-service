@@ -3,6 +3,9 @@
 ### Description
 It is a REST API that allows the management of test transactions for guama platform.
 
+### Image
+- Docker images available in: [guama-transaction-service](https://hub.docker.com/r/gamezluisdev/guama-transactions-service)
+
 ### Utilities
 - Create a transaction
 - List all transactions
